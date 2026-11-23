@@ -1,0 +1,17 @@
+﻿namespace ShelterApi.Controllers.DTOs
+{
+    public class AddAnimalDto
+    {
+
+        public string Name { get; set; } = null!;
+
+        public string Species { get; set; } = null!;
+
+        public int Age { get; set; }
+
+        public double Weight { get; set; }
+
+
+        public Guid ShelterId { get; set; }
+    }
+}
